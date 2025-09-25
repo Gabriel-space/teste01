@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header input {
+  padding: 10px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
+}
+
+header button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #27ae60;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+header button:hover {
+  background-color: #219150;
+}
+
+main {
+  padding: 20px;
+}
+
+#resultados {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.livro {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+}
+
+.livro h3 {
+  margin: 0 0 10px;
+  font-size: 18px;
+}
+
+.livro p {
+  margin: 0;
+  font-size: 14px;
+  color: #555;
+}
